@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.53.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 d8bc5f6c8159dafc9a0051cafd0abf918f8cca79 Changes
+SHA1 f63b55c4fba757aab1e2028940314463a21ad21e MANIFEST
+SHA1 d036d9809d4d367588cb7294ace31922ed70a112 META.yml
+SHA1 d22c300afe4a5bec6a5195d0faafd3a3e8360448 Makefile.PL
+SHA1 5742e61696d32ff34f16a2e6e530bfb36ad4328d README
+SHA1 e28cf2d3ba35f6ca3a448acc7bee191b7c390379 inc/Module/Install.pm
+SHA1 e7c1c86f57b6778f4bdc7fd8c1b950e60ef41bc0 inc/Module/Install/Base.pm
+SHA1 e1829448769445cdaac384a888bf9ccf42e0d89a inc/Module/Install/Can.pm
+SHA1 70aa5e2055e8e38b4eecc5fc8c91762c0e97f551 inc/Module/Install/Fetch.pm
+SHA1 8ac832baf4f9e8e72d3e8f103cee6e8a94ac80e1 inc/Module/Install/Makefile.pm
+SHA1 0807e79d6dbfda4fcd3db0fc7df2e33e0cba263b inc/Module/Install/Metadata.pm
+SHA1 4da0a1fce2339cc3f8c296c7716480d2564d9470 inc/Module/Install/Win32.pm
+SHA1 9a903a1d178954ad864c7dcc98f9fa5c005d1553 inc/Module/Install/WriteAll.pm
+SHA1 9e8b6bba9afdece211510b7c753f80e02b283ff3 lib/Filter/Simple/Compile.pm
+SHA1 5c16ff7c5dc4740808699062c8e6a56d8c5d47a1 t/TestFilterSimple.pm
+SHA1 680e897c3ff23714ee925bb4680bcb4116d03cda t/TestFilterSimple2.pm
+SHA1 7a7043a20d95e6cb4bee552d5a010303bc6f28b0 t/TestFilterSimple3.pm
+SHA1 4d3b580c997cc55670eb02a7cad349841117794e t/filter.t
+SHA1 5c344838e56cbeb1fdeef1080f69e651d9b12e6f t/filter2.t
+SHA1 9233f255e0cd9b2329ffb4ddee02f990adc590b5 t/filter3.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2 (FreeBSD)
+
+iD8DBQFEYK/KtLPdNzw1AaARAjkIAKCmDE9napJ+mnZnQxfHc0r6wPNPPgCgsRs1
+gGe3GuHYaX9cp9QCVycpMz4=
+=VrIb
+-----END PGP SIGNATURE-----
